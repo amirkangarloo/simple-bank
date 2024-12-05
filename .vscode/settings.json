@@ -1,0 +1,9 @@
+{
+    "cSpell.words": [
+        "createdb",
+        "dropdb",
+        "migratedown",
+        "migrateup",
+        "sslmode"
+    ]
+}
