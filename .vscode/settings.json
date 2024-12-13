@@ -1,9 +1,11 @@
 {
     "cSpell.words": [
         "createdb",
+        "DBTX",
         "dropdb",
         "migratedown",
         "migrateup",
+        "sqlc",
         "sslmode"
     ]
 }
