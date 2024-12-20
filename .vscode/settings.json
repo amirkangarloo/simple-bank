@@ -3,8 +3,10 @@
         "createdb",
         "DBTX",
         "dropdb",
+        "generatedb",
         "migratedown",
         "migrateup",
+        "removedb",
         "sqlc",
         "sslmode"
     ]
