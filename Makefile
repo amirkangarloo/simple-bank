@@ -22,6 +22,9 @@ sqlc:
 sleep:
 	sleep 5
 
+test:
+	go test -v -cover ./...
+
 generatedb: removedb postgres sleep createdb migrateup
 
-.PHONY: generatedb postgres createdb dropdb migrateup migratedown sqlc
+.PHONY: generatedb postgres createdb dropdb migrateup migratedown sqlc test
